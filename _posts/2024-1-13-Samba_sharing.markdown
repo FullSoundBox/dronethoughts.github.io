@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting up samba sharing with an old computer."
-date:   2024-01-13 16:47:26 -0600
+date:   2024-1-13 16:47:26 -0600
 categories: jekyll update
 ---
 Recently I've been making some cleaning up on my electronics drawer, and I found an old tiny PC which is barely powerful to be used as a desktop computer anymore.
