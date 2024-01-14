@@ -4,7 +4,6 @@ title:  "Setting up samba sharing with an old computer."
 date:   2024-01-13 16:47:26 -0600
 categories: jekyll update
 ---
-
 Recently I've been making some cleaning up on my electronics drawer, and I found an old tiny PC which is barely powerful to be used as a desktop computer anymore.
 
 So to try and give it some use, I tried installing an old version of Lubuntu (Bionic Beaver 18.04). This machine is an Aspire 1300 with a slow Intel Atom 230 @ 1.6 GHz. It barely has 2GB of RAM and I had to install an usb WiFi card.
