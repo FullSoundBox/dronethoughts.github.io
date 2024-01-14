@@ -13,24 +13,24 @@ At first the Wifi worked, but as it's common with linux distros, I had to do som
 Then, after I had a good internet connection, I installed samba package using
 
 
-{% highlight %}
+{% highlight bash %}
 sudo apt update
 sudo apt install samba
 {% endhighlight %}
 
 Once installed I created a folder for sharing the files with my local network, which are primarily movies and songs.
 
-{% highlight %}
+{% highlight bash %}
 mkdir /home/abraham/Share
 {% endhighlight %}
 
 and then I edited the configuration file so this folder is shared
 
-{% highlight %}
+{% highlight bash %}
 sudo nano /etc/samba/smb.conf
 {% endhighlight %}
 
-{% highlight %}
+{% highlight bash %}
 [Share]
 comment = File Sharing on aspire
 path = /home/abraham/Share
@@ -41,19 +41,19 @@ writable = yes
 
 Saved the file, and restarted the samba service for changes to take effect:
 
-{% highlight %}
+{% highlight bash %}
 sudo service smbd restart
 {% endhighlight %}
 
 And updated the firewall rules to allow Samba traffic:
 
-{% highlight %}
+{% highlight bash %}
 sudo ufw allow samba
 {% endhighlight %}
 
 After some time I found I had to create a password for samba so I can access the shared folder
 
-{% highlight %}
+{% highlight bash %}
 sudo smbpasswd -a abraham
 {% endhighlight %}
 
