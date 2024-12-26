@@ -65,4 +65,6 @@ https://youtu.be/-rEpQanhUoI?si=jDLumF39qTTDzEHV
 
 So in the end I was able to store some files that take up some space aside from my laptop, and then open them from any device connected to my network.
 
-Some notes on this setup are, that we may need to fix the IP of the mini PC, so it doesn't change every restart. I haven't had issues with this, though. The IP is always the same. Also, the power consumption has improved a lot on single board PCs, like a Raspberry Pi I have lying around, so it would be more power efficient to use it. The only downside is that I don't have a SATA-USB hard disk drive reader that is reliable enough for the Raspbery Pi. So, even when this is not power efficient, it works for now.
+Some notes on this setup are, that we may need to fix the IP of the mini PC, so it doesn't change every restart. I haven't had issues with this, though, the IP have always been the same.
+
+Also, the power consumption has improved a lot on single board PCs, like a Raspberry Pi I have lying around, so it would be more power efficient to use it. The only downside is that I don't have a SATA-USB hard disk drive reader that is reliable enough for the Raspbery Pi. So, even when this is not power efficient, it works for now.
